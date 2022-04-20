@@ -1,0 +1,27 @@
+/* CSS Box Login */
+.box-login {
+	position: absolute;
+	margin: auto;
+	left: 20px;
+	right: 20px;
+	top: 0;
+	bottom: 0;
+	height: max-content;
+}
+
+.box-login a:hover {
+	text-decoration: none;
+}
+
+.user input {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .login {
+	background-color: rgb(54, 54, 248);
+} */
+
+.login-inner {
+	background-color: white;
+}

@@ -1,0 +1,263 @@
+/* Seluruh Elemen Pada Website Yang Sama */
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-submit {
+	padding: 10px 20px !important;
+	font-size: 15px !important;
+}
+
+.btn-undo {
+	padding: 10px 15px !important;
+	font-size: 15px !important;
+}
+
+.btn-tambah {
+	font-size: 15px;
+	padding: 10px 20px !important;
+	margin-bottom: 8px;
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(0, 178, 209) !important;
+}
+
+.btn-hapus {
+	font-size: 0.8rem;
+	padding: 10px 20px;
+	margin-bottom: 8px;
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(255, 34, 34) !important;
+}
+
+/* button kembali ke halaman sebelumnya */
+.btnBack {
+	margin-bottom: 20px;
+}
+
+.btnBack a {
+	color: white !important;
+	text-decoration: none;
+	font-size: 015px;
+	padding: 10px 20px;
+}
+
+.btnBack a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* .sidebar{
+	background-color: #007bff !important;
+} */
+
+.detail-header {
+	color: rgb(253, 44, 44);
+	font-size: 15px;
+}
+
+.card-header p {
+	color: #007bff;
+	font-weight: 500 !important;
+	font-size: 20px;
+}
+
+
+/* Dashboard */
+
+.heloUser {
+	background-color: #0d81fd !important;
+	color: white;
+	padding: 10px;
+	border: 2px solid #0d81fd;
+}
+
+.totalAkun {
+	background-color: rgba(1, 141, 255, 0.5) !important;
+	padding: 10px;
+	border: 2px solid rgba(1, 141, 255, 0.5) !important;
+	color: whitesmoke
+}
+
+.totalAkun a {
+	text-decoration: none !important;
+	color: white;
+}
+
+.totalAkun a:hover {
+	text-decoration: none !important;
+	color: rgba(69, 69, 255, 0.568);
+}
+
+.totalBarang {
+	background-color: rgba(22, 38, 255, 0.5) !important;
+	padding: 10px;
+	border: 2px solid rgba(22, 38, 255, 0.5) !important;
+	color: white;
+}
+
+.totalBarang a {
+	text-decoration: none !important;
+	color: white;
+}
+
+.totalBarang a:hover {
+	text-decoration: none !important;
+	color: rgba(183, 2, 255, 0.856);
+}
+
+.totalCustomer {
+	background-color: rgba(251, 71, 64, 0.5) !important;
+	padding: 10px;
+	border: 2px solid rgba(251, 71, 64, 0.5) !important;
+	color: white;
+}
+
+.totalCustomer a {
+	text-decoration: none !important;
+	color: white;
+}
+
+.totalCustomer a:hover {
+	text-decoration: none !important;
+	color: rgba(255, 33, 25, 0.794);
+}
+
+.totalSupplier {
+	background-color: rgba(221, 0, 250, 0.507) !important;
+	padding: 10px;
+	border: 2px solid rgba(221, 0, 250, 0.507) !important;
+	color: white;
+}
+
+.totalSupplier a {
+	text-decoration: none !important;
+	color: white;
+}
+
+.totalSupplier a:hover {
+	text-decoration: none !important;
+	color: rgba(221, 0, 250, 0.924);
+}
+
+/* Judul Halaman */
+.title_halaman {
+	font-size: 45px;
+}
+
+/* reminder required */
+.reminder {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/* halaman coa */
+.nama_akun {
+	margin-left: 10px;
+}
+
+.level_2 {
+	text-indent: 15px;
+}
+
+.level_3 {
+	text-indent: 50px;
+}
+
+.level_4 {
+	text-indent: 70px;
+}
+
+.table-wrapper {
+	max-height: 600px;
+	overflow: auto;
+	display: block;
+}
+
+table .coa_head {
+	position: sticky;
+	top: 0;
+	background: #007bff;
+}
+
+
+
+/* .coa {} */
+
+/* Table Laporan */
+.tb_laporan {
+	border: 1px solid rgb(221, 216, 216);
+}
+
+.ket_trans {
+	font-size: 14px;
+	font-style: italic;
+	color: red;
+}
+
+/* sidebar */
+.logo {
+	width: 80px;
+	height: 70px;
+}
+
+.preview {
+	width: 550px;
+	height: 300px
+}
+
+.balance {
+	border: 1px solid;
+}
+
+/* Saldo Awal */
+.ket {
+	font-size: 20px;
+}
+
+.table-wrapper {
+	border: 1px black solid;
+}
+
+/* Halaman Barang */
+.ket_konversi {
+	font-size: 13px;
+}
+
+.input-group-addon {
+	background-color: transparent;
+	border-left: 0;
+}
+
+.input-group-addon,
+.input-group-btn {
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.input-group-addon {
+	padding: .5rem .75rem;
+	margin-bottom: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.25;
+	color: #495057;
+	text-align: center;
+	background-color: #e9ecef;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: .25rem;
+}
+
+/* Form Transaksi */
+.formTransaksi {
+	border: 1px solid black;
+}
+
+/* detail Invoice */
+.detail-invoice {
+	padding: 0px 20px 0px 0px;
+	font-size: 18px;
+}
+
+/* .table-striped-iseng tbody tr:nth-of-type(odd) {
+	background-color: #0d81fd;
+} */
